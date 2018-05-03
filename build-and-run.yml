@@ -1,0 +1,10 @@
+- hosts: localhost
+  connection: local
+  gather_facts: no
+
+  tasks:
+
+    - name: Build Dockerfile
+      docker_image:
+        name: dirtyonekanobi/ansible-playbook
+        rm: yes
