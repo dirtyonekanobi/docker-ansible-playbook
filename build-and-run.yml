@@ -8,3 +8,4 @@
       docker_image:
         name: dirtyonekanobi/ansible-playbook
         rm: yes
+        state: build
